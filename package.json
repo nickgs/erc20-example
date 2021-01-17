@@ -13,12 +13,13 @@
   "author": "Nick Selvaggio <nickgs1@gmail.com> (http://nickgs.com)",
   "license": "ISC",
   "dependencies": {
-    "openzeppelin-solidity": "^2.3.0",
-    "truffle-hdwallet-provider": "^1.0.10"
+    "truffle-hdwallet-provider": "^1.0.17"
   },
   "devDependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
     "bignumber.js": "^9.0.0",
     "chai": "^4.2.0",
-    "chai-bignumber": "^3.0.0"
+    "chai-bignumber": "^3.0.0",
+    "ganache-cli": "^6.12.1"
   }
 }
