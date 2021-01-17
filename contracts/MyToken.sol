@@ -12,6 +12,6 @@ contract MyToken is ERC20, ERC20Burnable {
         ERC20(name, symbol)
         public
     {
-         _mint(msg.sender, 10000);
+         _mint(msg.sender, 10000 * 10**18);
     }
 }
